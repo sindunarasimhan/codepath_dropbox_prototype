@@ -16,3 +16,4 @@ Notes:
 I had to redo the whole application because I accidentally "Removed reference" for the mainstory board. Because of this I did not have the time to work through optional stories. 
 
 Walkthrough of all implemented user stories:
+https://github.com/sindunarasimhan/codepath_dropbox_prototype/blob/master/dropBoxAssignment.gif
