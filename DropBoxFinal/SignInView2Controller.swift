@@ -22,6 +22,14 @@ class SignInView2Controller: UIViewController {
     }
     
 
+    @IBAction func emailFillButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "loginSegue", sender: nil)
+    }
+
+    @IBAction func onBackPressed(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+
+    }
     /*
     // MARK: - Navigation
 

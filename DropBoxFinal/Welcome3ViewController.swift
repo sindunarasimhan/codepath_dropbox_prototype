@@ -21,7 +21,16 @@ class Welcome3ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
 
+    @IBAction func signInButtonPress(_ sender: UIButton) {
+            //let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            //let signInVC = mainStoryboard.instantiateViewController(withIdentifier: "signInVC") as! SignInView2Controller
+            
+            //self.present(signInVC, animated: false, completion: nil)
+
+        
+    }
     /*
     // MARK: - Navigation
 

@@ -10,6 +10,9 @@ import UIKit
 
 class FilesController: UIViewController {
 
+    @IBOutlet var fileView: UIView!
+    @IBOutlet weak var fileViewer: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

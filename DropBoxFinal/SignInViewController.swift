@@ -12,7 +12,7 @@ class SignInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        performSegue(withIdentifier: "FillSegue", sender: self)
         // Do any additional setup after loading the view.
     }
 

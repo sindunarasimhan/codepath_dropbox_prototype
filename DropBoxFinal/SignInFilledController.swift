@@ -21,6 +21,10 @@ class SignInFilledController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func onBackClicked(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+
+    }
 
     /*
     // MARK: - Navigation
@@ -31,5 +35,14 @@ class SignInFilledController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func onSignInClicked(_ sender: UIButton) {
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "signInFileEnabled"){
+            let destinationViewController = segue.destination as! TabViewController
+            
+        }
+    }
+    
 }
